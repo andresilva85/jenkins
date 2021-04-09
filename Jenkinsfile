@@ -11,6 +11,7 @@ pipeline {
         stage ('Test') {
             steps {
                  echo 'running regression tests'
+                 sh 'npx cypress run'
             }
         }
     }
