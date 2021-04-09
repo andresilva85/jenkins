@@ -11,6 +11,7 @@ pipeline {
         stage ('Test') {
             steps {
                  echo 'running regression tests'
+                 sh 'sudo apt-get install -y nodejs'
                  sh 'npx cypress run'
             }
         }
