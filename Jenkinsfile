@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-           image 'cypress/base'
+            image 'cypress/base'
         }
     }
     
@@ -10,6 +10,7 @@ pipeline {
             steps {
             echo 'building or resolving dependencies'
             sh 'npx cypress run'
+            }
         }
     
         stage ('Test') {
