@@ -9,6 +9,7 @@ pipeline {
         stage('Build') {
             steps {
             echo 'building or resolving dependencies'
+            sh 'npm install cypress'
             sh 'npx cypress run'
             }
         }
