@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'cypress/base'
+            image 'andresilva85/automacaojenkins'
         }
     }
     
