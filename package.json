@@ -3,11 +3,17 @@
     "cypress": "^7.0.0",
     "cypress-cucumber-preprocessor": "4.0.3"
   },
-  "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
-  },
-  "dependencies": {
+    "dependencies": {
     "chai": "^4.3.4",
     "mocha": "^8.3.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+     "generate": true,
+     "outputFolder": "cypress/cucumber-json",
+     "filePrefix": "",
+     "fileSuffix": ".cucumber"
+    }
   }
 }
