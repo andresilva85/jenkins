@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    Como usuário, desejo navegar ao site de compras\n    E escolher um produto, adicionando ao carrinho de compras",
+    "keyword": "Feature",
+    "name": "Adicionar produto ao shoppingcart",
+    "line": 1,
+    "id": "adicionar-produto-ao-shoppingcart",
+    "tags": [],
+    "uri": "Automation.feature",
+    "elements": [
+      {
+        "id": "adicionar-produto-ao-shoppingcart;adicionando-produto-ao-carrinho",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Adicionando produto ao carrinho",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "que estou na pagina do site de compras",
+            "result": {
+              "status": "passed",
+              "duration": 16988000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "encontro o produto que desejo e adiciono ao carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 9769000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "o produto é adicionado com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
