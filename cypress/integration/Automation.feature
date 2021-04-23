@@ -1,4 +1,4 @@
-Feature: Adicionar produto ao shoppingcart
+Feature: Adicionar produto ao carrinho de compras
     Como usuário, desejo navegar ao site de compras
     E escolher um produto, adicionando ao carrinho de compras
 
