@@ -13,7 +13,7 @@ class addProduto {
 
     verificaShopCart() {
         //cy.get(el.shop_confirma).should('be.visible');    
-        cy.get(el.shop_confirma).contains('There is 10 item in your cart');  
+        cy.get(el.shop_confirma).contains('There is 1 item in your cart');  
     } 
 
 }
